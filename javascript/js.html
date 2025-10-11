@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo JavaScript</title>
+    <style>h1{
+        color: red;
+    }</style>
 </head>
 <body>
-   <h1>olhe o console.</h1> 
+   <h1>Digite um numero:</h1> 
+   <input type="number" name="" id="txt_input">
+   <button onclick="contagemRegressiva()">clique em mim</button>
+    <script>
+        function calcularIdade(){
+            let input = document.querySelector("#txt_input")
+       let ano_nasc = Number(input.value)
+       alert(`Você tem:  ${2025 - ano_nasc}`)
+       let idade = 2025 - ano_nasc
+       if (idade > 18){
+            alert("Você pode/deve/deveria ter se alistado no exército>")
+       } else{
+            alert("SAIA DAQUI")
+       }
+        }
+
+        function contagemRegressiva(){
+        let input = document.querySelector("#txt_input")
+        let numero = Number(input.value)
+
+        let mensagem = "<h1>SEU PC TA COM VIRUS PAI. SEM GARANTIA DE RECUPERAÇÃO</h1>"
+
+        do{
+            document.writeln(mensagem)
+            numero = numero - 1
+        }while (numero > 0)
+        
+       
+     }
+    </script>
 </body>
 </html>
