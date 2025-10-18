@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Diferença de declarações de variáveis</h1>
+    <ul>
+        <li>LET</li>
+        <p>Não permite sobreposição de dados - permite reatribuição de dados</p>
+
+        <li>VAR</li>
+        <p>permite sobreposição de dados - permite reatribuição</p>
+
+        <li>const</li>
+        <p>Não permite sobreposição de dados - não permite reatribuição</p>
+    </ul>
+    <br>
+    <hr>
+    <br>
+
+    <main id="principal">
+        <h1>Clique nas setas e mude a cor da caixa!</h1>
+        <p id="nome_da_cor">COR</p>
+
+        <div class="setas">
+            <button id="anterior" onclick="anterior()">⬅️</button>
+            <button id="proximo" onclick="proximo()">➡️</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
