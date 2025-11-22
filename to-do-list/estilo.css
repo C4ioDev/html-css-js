@@ -1,0 +1,83 @@
+body{                                                  
+
+    height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 198, 93, 0.884);
+    padding: 20px;
+}
+
+#titulo_principal{
+    text-align: center;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+main{
+    padding: 20px;
+    margin-top: 30px;
+
+}
+
+#input_tarefa{
+    font-family: Georgia;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.466);
+    width: 400px;
+}
+
+#adicionar_tarefa{
+    font-size: 1.2em;
+}
+
+
+section{
+    padding: 20px 0px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+li{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarefa{
+    margin: 0px;
+    width: 200px;
+    text-align: justify;
+    font-size: 1.1em;
+    word-wrap: break-word;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(48, 48, 48, 0.85);
+    width: 100%;
+    height: 200px;
+    color: white;
+}
